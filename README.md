@@ -1,1 +1,1 @@
-
+In the system, it is necessary to calculate the trip cost in different ways (by distance, by time, fixed price). Implement different pricing strategies. Create an interface PricingStrategy and concrete strategy implementations for the calculations.
