@@ -11,8 +11,8 @@ public class TaxiOrderProcess extends OrderProcess {
     @Override
     protected void calculateCost() {
         // Simulate cost calculation
-        double distance = 10; // Example distance in miles
-        double cost = distance * 2.5; // $2.5 per mile
+        double distance = 10; // Example distance in km
+        double cost = distance * 2.5; // $2.5 per km
         System.out.println("Calculated cost: $" + cost);
     }
 
