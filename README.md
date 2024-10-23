@@ -1,1 +1,1 @@
-
+Implement a basic algorithm for processing a taxi order with steps: availability check, cost calculation, confirmation. Allow subclasses to override some of these steps. Create an abstract class OrderProcess with a method processOrder that calls a sequence of operations.
