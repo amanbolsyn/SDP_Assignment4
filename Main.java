@@ -2,9 +2,9 @@
 public class Main {
     public static void main(String[] args) {
         // Distance-based pricing
-        PricingStrategy distanceStrategy = new DistancePricingStrategy(2.5); // $2.5 per mile
+        PricingStrategy distanceStrategy = new DistancePricingStrategy(2.5); // $2.5 per km
         Trip trip1 = new Trip(distanceStrategy);
-        double distanceCost = trip1.calculateCost(10); // 10 miles
+        double distanceCost = trip1.calculateCost(10); // 10 km
         System.out.println("Distance-based trip cost: $" + distanceCost);
 
         // Time-based pricing
