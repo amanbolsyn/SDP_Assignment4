@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Subject
+//observer pattern definnes one to many dependency. When one object changes its state it notifies other objects. 
 public class Order {
     private List<Client> observers = new ArrayList<>();
     private String status = "Pending";
