@@ -1,1 +1,1 @@
-
+Implement the Observer pattern to notify the client about the approaching taxi and changes in the order status. Create a class Order (subject) and Client (observer), where Client subscribes to changes in Order.
